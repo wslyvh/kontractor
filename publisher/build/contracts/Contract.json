@@ -1,0 +1,15 @@
+{
+    "contractName": "SampleContract",
+    "bytecode": "0x",
+    "deployedBytecode": "0x",
+    "sourceMap": ";",
+    "deployedSourceMap": ";",
+    "source": "pragma solidity",
+    "compiler": {
+      "name": "solc",
+      "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+    },
+    "networks": {},
+    "schemaVersion": "1.0.1",
+    "updatedAt": "2018-01-01T12:00:00.000Z"
+  }
