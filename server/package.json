@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Kontractor API to upload & handle contract files",
   "author": "wslyvh",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "main": "dist/server.js",
   "types": "dist/server.d.ts",
   "scripts": {
