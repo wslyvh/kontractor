@@ -64,7 +64,7 @@ describe("Files", () => {
         expect(fileManager).toBeDefined();
         expect(fileManager).toBeInstanceOf(FileManager);
 
-        const files = fileManager.GetJsonFiles("./build/contracts/Contract.json");
+        const files = fileManager.GetJsonFiles("./build/contracts/MetaCoin.json");
 
         expect(files).toBeDefined();
         expect(files.length).toEqual(1);
