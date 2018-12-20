@@ -1,0 +1,17 @@
+{
+  "name": "kontractor-solidity",
+  "version": "0.0.1",
+  "description": "Kontractor Solidity contracts to use with the publisher",
+  "author": "wslyvh",
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "truffle compile",
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "truffle": "^5.0.0"
+  },
+  "dependencies": {
+    "kontractor-publisher": "0.0.4"
+  }
+}
