@@ -1,12 +1,9 @@
 import * as bodyParser from "body-parser";
 import * as compression from "compression";
-import * as dotenv from "dotenv";
 import * as express from "express";
 import * as expressValidator from "express-validator";
 import { mongooseConnector as dbConnector } from "./config/mongooseConnector";
 import { Routes } from "./config/routes";
-
-dotenv.config();
 
 class App {
 
