@@ -7,5 +7,12 @@
     "declaration": true,
     "strict": true,
     "outDir": "./dist",
-  }
+  },
+  "exclude": [
+    "**/build",
+    "**/coverage",
+    "**/dist",
+    "**/node_modules",
+    "**/tests",
+  ],
 }
