@@ -9,7 +9,9 @@
     "test": "truffle test"
   },
   "devDependencies": {
-    "truffle": "^5.0.0"
+    "dotenv": "^6.2.0",
+    "truffle": "^5.0.0",
+    "truffle-hdwallet-provider": "^1.0.1"
   },
   "dependencies": {
     "kontractor-publisher": "0.0.4"
