@@ -9,8 +9,14 @@ export const ContractSchema = new Schema({
         type: String,
         required: "Enter a contract name",
     },
-    abi: {
+    address : {
         type: String,
+    },
+    network : {
+        type: Number,
+    },
+    abi: {
+        type: [],
     },
     bytecode : {
         type: String,
@@ -25,6 +31,14 @@ export const ContractSchema = new Schema({
         type: String,
     },
     source: {
+        type: String,
+    },
+    compiler: {
+        name: String,
+        version: String,
+    },
+    networks: { },
+    schemaVersion: {
         type: String,
     },
     updatedAt: {

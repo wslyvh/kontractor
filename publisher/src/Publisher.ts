@@ -20,7 +20,7 @@ export class Publisher {
     public Publish(path: string = "./build/contracts/") {
         const files = this.fileManager.GetJsonFiles(path);
         files.forEach(async (file) => {
-            await this.client.post("contracts", file);
+            await this.client.post("contracts/truffle", file);
         });
     }
 }

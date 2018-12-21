@@ -22,5 +22,8 @@ export class Routes {
             .get(this.contractController.getContractByAddress)
             .put(this.contractController.updateContract)
             .delete(this.contractController.deleteContract);
+
+        app.route("/contracts/truffle")
+            .post(this.contractController.publishTruffleContract);
     }
 }
